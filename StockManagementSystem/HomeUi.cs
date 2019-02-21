@@ -17,17 +17,22 @@ namespace StockManagementSystem
             InitializeComponent();
         }
 
-        private void ComapnySetupButton_Click(object sender, EventArgs e)
+        private void CompanySetupButton_Click(object sender, EventArgs e)
         {
-            CompanySetupUi companySetupUi=new CompanySetupUi();
-            companySetupUi.ShowDialog();
+            CompanySetupUi companySetup = new CompanySetupUi();
+            companySetup.ShowDialog();
         }
 
-        private void ViewSalesBetweenTwoDatesButton_Click(object sender, EventArgs e)
+        private void ViewSalesButton_Click(object sender, EventArgs e)
         {
-            ViewSalesBetweenTwoDatesUi viewSalesBetweenTwoDatesUi=new ViewSalesBetweenTwoDatesUi();
-            viewSalesBetweenTwoDatesUi.ShowDialog();
+            ViewSalesBetweenTwoDatesUi viewSales = new ViewSalesBetweenTwoDatesUi();
+            viewSales.ShowDialog();
         }
 
+        private void ItemSetupButton_Click(object sender, EventArgs e)
+        {
+            ItemSetupUi itemSetup = new ItemSetupUi();
+            itemSetup.ShowDialog();
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace StockManagementSystem
         {
             InitializeComponent();
         }
+
+        private void ViewSalesBetweenTwoDatesUi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -8,13 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using StockManagementSystem.Models;
 
 namespace StockManagementSystem
 {
     public partial class CompanySetupUi : Form
     {
-        CompanySetup companySetup=new CompanySetup();
         public CompanySetupUi()
         {
             InitializeComponent();
@@ -22,9 +20,11 @@ namespace StockManagementSystem
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
+            string name;
+
             if (!string.IsNullOrEmpty(nameTextBox.Text))
             {
-                companySetup.Name = nameTextBox.Text;
+                name = nameTextBox.Text;
             }
             else
             {
@@ -33,7 +33,7 @@ namespace StockManagementSystem
                 return;
             }
 
-            if (Exists(companySetup.Name))
+            if (Exists(name))
             {
                 MessageBox.Show("Company Already Exists.");
                 nameTextBox.Focus();
@@ -43,16 +43,15 @@ namespace StockManagementSystem
             try
             {
                 // Save Data
-                string connectionStrint =@"Server=SHAKIKUL-PC\SQLEXPRESS;Database=StockManagementSystemDb;Integrated Security=true";
+                string connectionStrint =@"Server=TOUHID;Database=StockManagementSystemDb;Integrated Security=true";
                 SqlConnection sqlConnection=new SqlConnection(connectionStrint);
-                string query = @"INSERT INTO CompanyS(Name)VALUES('" + companySetup.Name + "')";
+                string query = @"INSERT INTO Companies(CompanyName)VALUES('" + name + "')";
                 SqlCommand sqlCommane = new SqlCommand(query, sqlConnection);
                 sqlConnection.Open();
                 int isExecuted = sqlCommane.ExecuteNonQuery();
                 MessageBox.Show(isExecuted > 0 ? "Company Saved." : "Not Saved.");
                 sqlConnection.Close();
 
-                nameTextBox.Clear();
                 ShowData();
                 
 
@@ -70,9 +69,9 @@ namespace StockManagementSystem
 
             try
             {
-                string connectionString = @"Server=SHAKIKUL-PC\SQLEXPRESS; Database=StockManagementSystemDb; Integrated Security = true";
+                string connectionString = @"Server=TOUHID; Database=StockManagementSystemDb; Integrated Security = true";
                 SqlConnection sqlConnection = new SqlConnection(connectionString);
-                string query = @"SELECT * FROM CompanyS WHERE Name = '" + name + "'";
+                string query = @"SELECT * FROM Companies WHERE CompanyName = '" + name + "'";
                 SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
                 sqlConnection.Open();
                 SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
@@ -80,7 +79,7 @@ namespace StockManagementSystem
                 string data = "";
                 if (sqlDataReader.Read())
                 {
-                    data = sqlDataReader["Name"].ToString();
+                    data = sqlDataReader["CompanyName"].ToString();
                 }
 
                 if (!String.IsNullOrEmpty(data))
@@ -109,9 +108,9 @@ namespace StockManagementSystem
         {
             try
             {
-                string connectionStrint = @"Server=SHAKIKUL-PC\SQLEXPRESS;Database=StockManagementSystemDb;Integrated Security=true";
+                string connectionStrint = @"Server=TOUHID;Database=StockManagementSystemDb;Integrated Security=true";
                 SqlConnection sqlConnection = new SqlConnection(connectionStrint);
-                string queryShowData = @"SELECT *FROM CompanyS";
+                string queryShowData = @"SELECT *FROM Companies";
                 SqlCommand sqlCommandShowData = new SqlCommand(queryShowData, sqlConnection);
                 SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommandShowData);
                 DataTable dataTable = new DataTable();

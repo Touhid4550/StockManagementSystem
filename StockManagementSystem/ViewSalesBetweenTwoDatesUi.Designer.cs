@@ -115,6 +115,7 @@
             this.Name = "ViewSalesBetweenTwoDatesUi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "View Sales Between Two Dates";
+            this.Load += new System.EventHandler(this.ViewSalesBetweenTwoDatesUi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.displayDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

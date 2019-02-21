@@ -28,158 +28,141 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.CatetorySetupButton = new System.Windows.Forms.Button();
-            this.ComapnySetupButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SetupCatagoryButton = new System.Windows.Forms.Button();
+            this.CompanySetupButton = new System.Windows.Forms.Button();
             this.ItemSetupButton = new System.Windows.Forms.Button();
             this.StockInButton = new System.Windows.Forms.Button();
             this.StockOutButton = new System.Windows.Forms.Button();
-            this.SearchAndViewItemSummaryButton = new System.Windows.Forms.Button();
-            this.ViewSalesBetweenTwoDatesButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.SearchAndViewItemsButton = new System.Windows.Forms.Button();
+            this.ViewSalesButton = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // CatetorySetupButton
+            // label1
             // 
-            this.CatetorySetupButton.FlatAppearance.BorderSize = 2;
-            this.CatetorySetupButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.CatetorySetupButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.CatetorySetupButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CatetorySetupButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CatetorySetupButton.Location = new System.Drawing.Point(26, 132);
-            this.CatetorySetupButton.Name = "CatetorySetupButton";
-            this.CatetorySetupButton.Size = new System.Drawing.Size(280, 80);
-            this.CatetorySetupButton.TabIndex = 0;
-            this.CatetorySetupButton.Text = "Category Setup";
-            this.CatetorySetupButton.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(100, -3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(111, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Select Page";
             // 
-            // ComapnySetupButton
+            // SetupCatagoryButton
             // 
-            this.ComapnySetupButton.FlatAppearance.BorderSize = 2;
-            this.ComapnySetupButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ComapnySetupButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ComapnySetupButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ComapnySetupButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ComapnySetupButton.Location = new System.Drawing.Point(312, 132);
-            this.ComapnySetupButton.Name = "ComapnySetupButton";
-            this.ComapnySetupButton.Size = new System.Drawing.Size(280, 80);
-            this.ComapnySetupButton.TabIndex = 0;
-            this.ComapnySetupButton.Text = "Company Setup";
-            this.ComapnySetupButton.UseVisualStyleBackColor = true;
-            this.ComapnySetupButton.Click += new System.EventHandler(this.ComapnySetupButton_Click);
+            this.SetupCatagoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SetupCatagoryButton.Location = new System.Drawing.Point(71, 36);
+            this.SetupCatagoryButton.Name = "SetupCatagoryButton";
+            this.SetupCatagoryButton.Size = new System.Drawing.Size(157, 30);
+            this.SetupCatagoryButton.TabIndex = 1;
+            this.SetupCatagoryButton.Text = "Setup Catagory";
+            this.SetupCatagoryButton.UseVisualStyleBackColor = true;
+            // 
+            // CompanySetupButton
+            // 
+            this.CompanySetupButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompanySetupButton.Location = new System.Drawing.Point(71, 83);
+            this.CompanySetupButton.Name = "CompanySetupButton";
+            this.CompanySetupButton.Size = new System.Drawing.Size(157, 30);
+            this.CompanySetupButton.TabIndex = 2;
+            this.CompanySetupButton.Text = "Setup Company";
+            this.CompanySetupButton.UseVisualStyleBackColor = true;
+            this.CompanySetupButton.Click += new System.EventHandler(this.CompanySetupButton_Click);
             // 
             // ItemSetupButton
             // 
-            this.ItemSetupButton.FlatAppearance.BorderSize = 2;
-            this.ItemSetupButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ItemSetupButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ItemSetupButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ItemSetupButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemSetupButton.Location = new System.Drawing.Point(598, 132);
+            this.ItemSetupButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemSetupButton.Location = new System.Drawing.Point(71, 124);
             this.ItemSetupButton.Name = "ItemSetupButton";
-            this.ItemSetupButton.Size = new System.Drawing.Size(280, 80);
-            this.ItemSetupButton.TabIndex = 0;
-            this.ItemSetupButton.Text = "Item Setup";
+            this.ItemSetupButton.Size = new System.Drawing.Size(157, 30);
+            this.ItemSetupButton.TabIndex = 3;
+            this.ItemSetupButton.Text = "Setup Item";
             this.ItemSetupButton.UseVisualStyleBackColor = true;
+            this.ItemSetupButton.Click += new System.EventHandler(this.ItemSetupButton_Click);
             // 
             // StockInButton
             // 
-            this.StockInButton.FlatAppearance.BorderSize = 2;
-            this.StockInButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.StockInButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.StockInButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StockInButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StockInButton.Location = new System.Drawing.Point(26, 218);
+            this.StockInButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StockInButton.Location = new System.Drawing.Point(71, 174);
             this.StockInButton.Name = "StockInButton";
-            this.StockInButton.Size = new System.Drawing.Size(280, 80);
-            this.StockInButton.TabIndex = 0;
+            this.StockInButton.Size = new System.Drawing.Size(157, 30);
+            this.StockInButton.TabIndex = 4;
             this.StockInButton.Text = "Stock In";
             this.StockInButton.UseVisualStyleBackColor = true;
             // 
             // StockOutButton
             // 
-            this.StockOutButton.FlatAppearance.BorderSize = 2;
-            this.StockOutButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.StockOutButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.StockOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StockOutButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StockOutButton.Location = new System.Drawing.Point(312, 218);
+            this.StockOutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StockOutButton.Location = new System.Drawing.Point(71, 222);
             this.StockOutButton.Name = "StockOutButton";
-            this.StockOutButton.Size = new System.Drawing.Size(280, 80);
-            this.StockOutButton.TabIndex = 0;
+            this.StockOutButton.Size = new System.Drawing.Size(157, 30);
+            this.StockOutButton.TabIndex = 5;
             this.StockOutButton.Text = "Stock Out";
             this.StockOutButton.UseVisualStyleBackColor = true;
             // 
-            // SearchAndViewItemSummaryButton
+            // SearchAndViewItemsButton
             // 
-            this.SearchAndViewItemSummaryButton.FlatAppearance.BorderSize = 2;
-            this.SearchAndViewItemSummaryButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.SearchAndViewItemSummaryButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.SearchAndViewItemSummaryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SearchAndViewItemSummaryButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SearchAndViewItemSummaryButton.Location = new System.Drawing.Point(598, 218);
-            this.SearchAndViewItemSummaryButton.Name = "SearchAndViewItemSummaryButton";
-            this.SearchAndViewItemSummaryButton.Size = new System.Drawing.Size(280, 80);
-            this.SearchAndViewItemSummaryButton.TabIndex = 0;
-            this.SearchAndViewItemSummaryButton.Text = "Search && View Items Summary";
-            this.SearchAndViewItemSummaryButton.UseVisualStyleBackColor = true;
+            this.SearchAndViewItemsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchAndViewItemsButton.Location = new System.Drawing.Point(71, 271);
+            this.SearchAndViewItemsButton.Name = "SearchAndViewItemsButton";
+            this.SearchAndViewItemsButton.Size = new System.Drawing.Size(157, 30);
+            this.SearchAndViewItemsButton.TabIndex = 6;
+            this.SearchAndViewItemsButton.Text = "Search And View Items";
+            this.SearchAndViewItemsButton.UseVisualStyleBackColor = true;
             // 
-            // ViewSalesBetweenTwoDatesButton
+            // ViewSalesButton
             // 
-            this.ViewSalesBetweenTwoDatesButton.FlatAppearance.BorderSize = 2;
-            this.ViewSalesBetweenTwoDatesButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ViewSalesBetweenTwoDatesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ViewSalesBetweenTwoDatesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ViewSalesBetweenTwoDatesButton.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ViewSalesBetweenTwoDatesButton.Location = new System.Drawing.Point(312, 304);
-            this.ViewSalesBetweenTwoDatesButton.Name = "ViewSalesBetweenTwoDatesButton";
-            this.ViewSalesBetweenTwoDatesButton.Size = new System.Drawing.Size(280, 80);
-            this.ViewSalesBetweenTwoDatesButton.TabIndex = 0;
-            this.ViewSalesBetweenTwoDatesButton.Text = "View Sales Between Two Dates";
-            this.ViewSalesBetweenTwoDatesButton.UseVisualStyleBackColor = true;
-            this.ViewSalesBetweenTwoDatesButton.Click += new System.EventHandler(this.ViewSalesBetweenTwoDatesButton_Click);
+            this.ViewSalesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewSalesButton.Location = new System.Drawing.Point(71, 319);
+            this.ViewSalesButton.Name = "ViewSalesButton";
+            this.ViewSalesButton.Size = new System.Drawing.Size(157, 30);
+            this.ViewSalesButton.TabIndex = 7;
+            this.ViewSalesButton.Text = "View Saels";
+            this.ViewSalesButton.UseVisualStyleBackColor = true;
+            this.ViewSalesButton.Click += new System.EventHandler(this.ViewSalesButton_Click);
             // 
-            // label1
+            // panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(150, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(604, 40);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Welcome to Stock Management System";
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(227)))), ((int)(((byte)(227)))));
+            this.panel1.Controls.Add(this.SetupCatagoryButton);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.ViewSalesButton);
+            this.panel1.Controls.Add(this.CompanySetupButton);
+            this.panel1.Controls.Add(this.SearchAndViewItemsButton);
+            this.panel1.Controls.Add(this.ItemSetupButton);
+            this.panel1.Controls.Add(this.StockOutButton);
+            this.panel1.Controls.Add(this.StockInButton);
+            this.panel1.Location = new System.Drawing.Point(30, 25);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(294, 373);
+            this.panel1.TabIndex = 8;
             // 
             // HomeUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(904, 461);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.ViewSalesBetweenTwoDatesButton);
-            this.Controls.Add(this.SearchAndViewItemSummaryButton);
-            this.Controls.Add(this.StockOutButton);
-            this.Controls.Add(this.StockInButton);
-            this.Controls.Add(this.ItemSetupButton);
-            this.Controls.Add(this.ComapnySetupButton);
-            this.Controls.Add(this.CatetorySetupButton);
+            this.ClientSize = new System.Drawing.Size(357, 421);
+            this.Controls.Add(this.panel1);
             this.Name = "HomeUi";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Srock Management System";
+            this.Text = "Home";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button CatetorySetupButton;
-        private System.Windows.Forms.Button ComapnySetupButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button SetupCatagoryButton;
+        private System.Windows.Forms.Button CompanySetupButton;
         private System.Windows.Forms.Button ItemSetupButton;
         private System.Windows.Forms.Button StockInButton;
         private System.Windows.Forms.Button StockOutButton;
-        private System.Windows.Forms.Button SearchAndViewItemSummaryButton;
-        private System.Windows.Forms.Button ViewSalesBetweenTwoDatesButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button SearchAndViewItemsButton;
+        private System.Windows.Forms.Button ViewSalesButton;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -21,4 +21,15 @@ E:\My Create\StockManagementSystem\StockManagementSystem\obj\Debug\StockManageme
 E:\Shimleen\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe.config
 E:\Shimleen\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.exe
 E:\Shimleen\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
-E:\My Create\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.HomeUi.resources
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe.config
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.exe
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.pdb
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csprojResolveAssemblyReference.cache
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.CompanySetupUi.resources
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Properties.Resources.resources
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.ViewSalesBetweenTwoDatesUi.resources
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.GenerateResource.Cache
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.HomeUi.resources
+E:\BITM\project 1\Git\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.ItemSetupUi.resources
